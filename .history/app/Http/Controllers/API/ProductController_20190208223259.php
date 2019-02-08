@@ -120,7 +120,7 @@ class ProductController extends BaseController
         $films->country = $input['country'];
         $films->genre = $input['genre'];
         $films->photo = $input['photo'];
-        $films->update();
+        $films->save();
 
 
         return $this->sendResponse($films->toArray(), 'Data updated successfully.');
