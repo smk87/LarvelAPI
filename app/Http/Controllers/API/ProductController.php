@@ -10,7 +10,7 @@ use App\Films;
 use Validator;
 
 
-class FilmsController extends BaseController
+class ProductController extends BaseController
 {
     /**
      * Display a listing of the resource.
